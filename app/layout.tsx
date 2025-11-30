@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/minnarc-02.png" type="image/png" />
+      </head>
       <body>
         <Navbar />
         <main className="min-h-screen">
