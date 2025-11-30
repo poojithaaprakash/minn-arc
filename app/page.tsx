@@ -39,16 +39,15 @@ export default async function HomePage() {
               </a>
             </div>
           </div>
-          <div className="hidden md:flex justify-end">
-            <div className="w-80 h-80 bg-white border border-brand-accent rounded-full shadow-lg flex items-center justify-center">
-              <span className="text-[#2D2D2D] font-serif text-xl text-center px-8">
-                Minn Arc
-                <span className="block text-xs font-sans text-[#666666] mt-2">
-                  Crochet pieces with an authentic, premium feel.
-                </span>
-              </span>
+            {/* <div className="hidden md:flex justify-end">
+            <div className="w-64 h-64 bg-white border border-brand-accent rounded-full shadow-lg flex items-center justify-center">
+              <img
+              src="/logo.png"
+              alt="Minn Arc Logo"
+              className="w-64 h-64 object-contain"
+              />
             </div>
-          </div>
+            </div> */}
         </div>
       </section>
 

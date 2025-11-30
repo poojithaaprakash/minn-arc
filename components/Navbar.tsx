@@ -13,9 +13,20 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-serif font-semibold text-[#2D2D2D]">
+            {/* <Image
+              src="/logo.png"
+              alt="Minn Arc Logo"
+              width={40}
+              height={40}
+              priority
+            /> */}
+            <div
+              className="text-3xl text-brand-primary"
+              style={{ fontFamily: '"Allura", cursive' }}
+            >
               Minn Arc
             </div>
+
           </Link>
 
           {/* Desktop Menu */}

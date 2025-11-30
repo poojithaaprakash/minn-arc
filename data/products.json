@@ -5,102 +5,240 @@
       "name": "Keychains",
       "slug": "keychains",
       "description": "Cute handmade crochet keychains perfect for gifts",
-      "image": "/images/categories/keychains.jpg"
+      "image": "/images/categories/keychains.png"
     },
     {
       "id": "pillow-covers",
       "name": "Pillow Covers",
       "slug": "pillow-covers",
       "description": "Cozy crochet pillow covers to brighten your home",
-      "image": "/images/categories/pillow-covers.jpg"
+      "image": "/images/categories/pillowCovers.png"
     },
     {
       "id": "bags",
       "name": "Bags",
       "slug": "bags",
       "description": "Stylish handmade crochet bags for everyday use",
-      "image": "/images/categories/bags.jpg"
+      "image": "/images/categories/bag.png"
     },
     {
       "id": "fridge-magnets",
       "name": "Fridge Magnets",
       "slug": "fridge-magnets",
       "description": "Adorable crochet magnets for your kitchen",
-      "image": "/images/categories/fridge-magnets.jpg"
+      "image": "/images/categories/fridge-magnets.png"
+    },
+    {
+      "id": "hair-ties",
+      "name": "Hair Ties",
+      "slug": "hair-ties",
+      "description": "Colorful handmade crochet hair ties to add style and comfort to your hair",
+      "image": "/images/categories/hairTies.png"
     },
     {
       "id": "patterns",
       "name": "Patterns",
       "slug": "patterns",
       "description": "Crochet patterns for you to create your own pieces",
-      "image": "/images/categories/patterns.jpg"
+      "image": "/images/categories/pattern.png"
     }
   ],
   "products": [
-    {
-      "id": "key-001",
-      "name": "Heart Keychain",
-      "slug": "heart-keychain",
-      "category": "keychains",
-      "price": 150,
-      "description": "Handcrafted crochet heart keychain, perfect for gifting or adding charm to your keys",
-      "images": ["/images/products/placeholder.jpg"],
-      "inStock": true,
-      "featured": true,
-      "colors": ["Purple", "Pink", "Beige"],
-      "customizable": false
-    },
-    {
-      "id": "key-002",
-      "name": "Star Keychain",
-      "slug": "star-keychain",
-      "category": "keychains",
-      "price": 150,
-      "description": "Cute star-shaped crochet keychain in vibrant colors",
-      "images": ["/images/products/placeholder.jpg"],
-      "inStock": true,
-      "featured": false,
-      "colors": ["Yellow", "Blue", "Pink"],
-      "customizable": false
-    },
-    {
-      "id": "pillow-001",
-      "name": "Floral Pillow Cover",
-      "slug": "floral-pillow-cover",
-      "category": "pillow-covers",
-      "price": 450,
-      "description": "Beautiful crochet pillow cover with floral pattern, adds warmth to any room",
-      "images": ["/images/products/placeholder.jpg"],
-      "inStock": true,
-      "featured": true,
-      "colors": ["White", "Cream", "Lavender"],
-      "customizable": true
-    },
-    {
-      "id": "bag-001",
-      "name": "Tote Bag",
-      "slug": "tote-bag",
-      "category": "bags",
-      "price": 650,
-      "description": "Spacious handmade crochet tote bag, perfect for shopping or beach days",
-      "images": ["/images/products/placeholder.jpg"],
-      "inStock": false,
-      "featured": false,
-      "colors": ["Natural", "Navy", "Rose"],
-      "customizable": false
-    },
-    {
-      "id": "mag-001",
-      "name": "Cactus Fridge Magnet",
-      "slug": "cactus-fridge-magnet",
-      "category": "fridge-magnets",
-      "price": 100,
-      "description": "Adorable mini crochet cactus magnet for your refrigerator",
-      "images": ["/images/products/placeholder.jpg"],
-      "inStock": true,
-      "featured": true,
-      "colors": ["Green", "Pink"],
-      "customizable": false
-    }
+  {
+    "id": "rakhi-leaf-yellow-green",
+    "name": "Leaf Rakhi (Yellow & Green)",
+    "slug": "leaf-rakhi-yellow-green",
+    "category": "custom-orders",
+    "price": 150,
+    "description": "Handcrafted crochet leaf rakhi in yellow and green with pearl details.",
+    "images": ["/images/products/Rakhi3.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Yellow", "Green", "White"],
+    "customizable": true
+  },
+  {
+    "id": "rakhi-round-orange-yellow",
+    "name": "Round Rakhi (Orange & Yellow)",
+    "slug": "round-rakhi-orange-yellow",
+    "category": "custom-orders",
+    "price": 150,
+    "description": "Round crochet rakhi in bright orange and yellow with pearl centre.",
+    "images": ["/images/products/Rakhi4.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Orange", "Yellow", "White"],
+    "customizable": true
+  },
+  {
+    "id": "rakhis-assorted-set",
+    "name": "Assorted Crochet Rakhi Set",
+    "slug": "assorted-crochet-rakhis",
+    "category": "custom-orders",
+    "price": 600,
+    "description": "Set of handcrafted crochet rakhis in assorted colours and shapes.",
+    "images": ["/images/products/Rakhis.jpg", "/images/products/Rakhi-all.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["Blue", "Pink", "Yellow", "White", "Orange"],
+    "customizable": true
+  },
+  {
+    "id": "rakhi-pink-purple",
+    "name": "Dual Petal Rakhi (Pink & Purple)",
+    "slug": "dual-petal-rakhi-pink-purple",
+    "category": "custom-orders",
+    "price": 150,
+    "description": "Dual-petal crochet rakhi in pink and purple with pearl accents.",
+    "images": ["/images/products/Rakhi2.jpg", "/images/products/Rakhi1.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Pink", "Purple", "White"],
+    "customizable": true
+  },
+  {
+    "id": "scrunchies-textured-set",
+    "name": "Textured Scrunchies Set",
+    "slug": "textured-scrunchies-set",
+    "category": "bags",
+    "price": 350,
+    "description": "Soft crochet scrunchies in three colours with a textured, ruffled edge.",
+    "images": ["/images/products/scrunchies.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["Magenta", "White", "Lavender"],
+    "customizable": true
+  },
+  {
+    "id": "flower-hairband",
+    "name": "Floral Hairband",
+    "slug": "floral-hairband",
+    "category": "bags",
+    "price": 280,
+    "description": "Delicate crochet flower hairband with pearl centres.",
+    "images": ["/images/products/flower_hairband.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Rose", "Pearl"],
+    "customizable": true
+  },
+  {
+    "id": "rose-bag-white",
+    "name": "Rose Garden Shoulder Bag",
+    "slug": "rose-garden-shoulder-bag",
+    "category": "bags",
+    "price": 1650,
+    "description": "Handcrafted white crochet bag adorned with 3D red roses and green vines.",
+    "images": ["/images/products/Rose-bag.jpg", "/images/products/rose-bag-inside.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["White", "Red", "Green"],
+    "customizable": true
+  },
+  {
+    "id": "octopus-plushie-blue",
+    "name": "Blue Octopus Plushie",
+    "slug": "blue-octopus-plushie",
+    "category": "keychains",
+    "price": 450,
+    "description": "Super soft blue crochet octopus plushie with a friendly smile.",
+    "images": ["/images/products/octopus_plushie.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["Blue", "Black"],
+    "customizable": false
+  },
+  {
+    "id": "heart-magnets-set",
+    "name": "Heart Magnets Duo",
+    "slug": "heart-magnets-duo",
+    "category": "fridge-magnets",
+    "price": 180,
+    "description": "Set of two crochet heart magnets in neutral tones for your fridge or board.",
+    "images": ["/images/products/heart_magnet.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Beige", "Wine"],
+    "customizable": true
+  },
+  {
+    "id": "flower-bookmark-white-yellow",
+    "name": "Daisy Bookmark (White & Yellow)",
+    "slug": "daisy-bookmark-white-yellow",
+    "category": "custom-orders",
+    "price": 220,
+    "description": "Crochet daisy bookmark with long green stem and leaf.",
+    "images": ["/images/products/flower_bookmark.jpg", "/images/products/flower_bookmark2.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["White", "Yellow", "Green"],
+    "customizable": true
+  },
+  {
+    "id": "lavender-bookmark",
+    "name": "Lavender Bookmark",
+    "slug": "lavender-bookmark",
+    "category": "custom-orders",
+    "price": 220,
+    "description": "Crochet lavender sprig bookmark with textured purple flowers and green stem.",
+    "images": ["/images/products/lavender_bookmark.jpg", "/images/products/lavender_bookmark2.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Lavender", "Green"],
+    "customizable": true
+  },
+  {
+    "id": "mixed-flower-bookmarks-set",
+    "name": "Mixed Flower Bookmark Set",
+    "slug": "mixed-flower-bookmarks-set",
+    "category": "custom-orders",
+    "price": 600,
+    "description": "Set of assorted crochet flower bookmarks including lavender, daisy and berry.",
+    "images": ["/images/products/laven_daisy_bookmark.jpg", "/images/products/laven_daisy_bookmark.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Lavender", "Cream", "Green", "Red"],
+    "customizable": true
+  },
+  {
+    "id": "boho-pillow-cover-single",
+    "name": "Boho Shell Pillow Cover",
+    "slug": "boho-shell-pillow-cover",
+    "category": "pillow-covers",
+    "price": 1200,
+    "description": "Handmade boho-style crochet pillow cover with shells and tassels.",
+    "images": ["/images/products/pillowcover.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["Cream", "Brown"],
+    "customizable": true
+  },
+  {
+    "id": "boho-pillow-covers-set",
+    "name": "Boho Shell Pillow Cover Set",
+    "slug": "boho-shell-pillow-cover-set",
+    "category": "pillow-covers",
+    "price": 3400,
+    "description": "Set of crochet pillow covers styled on a neutral sofa, perfect for living rooms.",
+    "images": ["/images/products/pillow-covers.jpg", "/images/products/photo_6151929117356526556_y.jpg"],
+    "inStock": true,
+    "featured": true,
+    "colors": ["Cream", "Brown"],
+    "customizable": true
+  },
+  {
+    "id": "purple-coaster-motif",
+    "name": "Lavender Bloom Coaster",
+    "slug": "lavender-bloom-coaster",
+    "category": "patterns",
+    "price": 250,
+    "description": "Intricate lavender crochet motif ideal as a coaster or applique.",
+    "images": ["/images/products/photo_6151929117356526556_y.jpg"],
+    "inStock": true,
+    "featured": false,
+    "colors": ["Lavender"],
+    "customizable": false
+  }
+
   ]
 }

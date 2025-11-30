@@ -23,6 +23,7 @@ const config: Config = {
         },
       },
       fontFamily: {
+        logo: ["Allura", "cursive"],
         serif: ["Playfair Display", "serif"],
         sans: ["Inter", "sans-serif"],
       },
